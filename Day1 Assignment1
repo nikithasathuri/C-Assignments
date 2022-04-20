@@ -67,10 +67,7 @@ using System;
    
     }
   
-  }
-
-}
-
+ 
 3.Write a C# Sharp program that takes two numbers as input and perform an operation (+,-,*,/) on them and displays the result of that operation
         int x, y;
         char operation;
