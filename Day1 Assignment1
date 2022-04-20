@@ -1,0 +1,99 @@
+1. Write a C# Sharp program to accept two integers and check whether they are equal or not.  
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AssignmentNo1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+          int n1;
+          int n2; 
+    
+          Console.WriteLine( "Enter 1st number :"); 
+   
+          Console.WriteLine( "Enter 2nd number :");
+   
+          n1 =  Convert.ToInt32(Console.ReadLine());
+   
+          n2 =  Convert.ToInt32(Console.ReadLine());
+   
+          if(n1==n2)
+   
+         {
+        
+             Console.WriteLine(" Given numbers are equal");
+    
+         }
+
+        else
+  
+        {
+        
+            Console.WriteLine(" Given numbers are not equal");;
+ 
+        }
+
+    }
+
+}
+
+2. Write a C# Sharp program to check whether a given number is positive or negative. 
+using System;
+    
+     int number;
+    
+     Console.WriteLine( "Enter 1st number :"); 
+   
+      number =  Convert.ToInt32(Console.ReadLine());
+   
+      if(number>=0)
+   
+     {
+        
+          Console.WriteLine(" Given number is positive ");
+  
+     }
+   
+    else
+   
+    {
+       
+          Console.WriteLine(" Given numbers is negative ");
+   
+    }
+  
+  }
+
+}
+
+3.Write a C# Sharp program that takes two numbers as input and perform an operation (+,-,*,/) on them and displays the result of that operation
+        int x, y;
+        char operation;
+         
+        Console.Write("Input first number: ");
+        x = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input operation: ");
+        operation = Convert.ToChar(Console.ReadLine());
+        Console.Write("Input second number: ");
+        y = Convert.ToInt32(Console.ReadLine());
+         
+        if (operation=='+')
+            Console.WriteLine("{0} + {1} = {2}", x, y, x+y);
+        else if (operation=='-')
+            Console.WriteLine("{0} - {1} = {2}", x, y, x-y);
+        else if ((operation=='*')) 
+            Console.WriteLine("{0} * {1} = {2}", x, y, x*y);
+        else if (operation=='/')
+            Console.WriteLine("{0} / {1} = {2}", x, y, x/y);
+        else
+            Console.WriteLine("Wrong Character");
+    
+    }
+   }
+ }
+}
